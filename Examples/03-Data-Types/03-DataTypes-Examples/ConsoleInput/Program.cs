@@ -15,7 +15,7 @@ namespace ConsoleInput
             string x = Console.ReadLine();
 
             Console.Write(x);
-            Console.WriteLine(" sezam otvori se");
+            Console.WriteLine(" its a magic ");
         }
     }
 }

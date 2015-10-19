@@ -10,6 +10,7 @@ namespace Task01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("sdasdas");
         }
     }
 }

@@ -10,12 +10,18 @@ namespace ConsoleInput
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number:");
+            //Console.WriteLine("Please enter a number:");
 
-            string x = Console.ReadLine();
+            //string x = Console.ReadLine();
 
-            Console.Write(x);
-            Console.WriteLine(" its a magic ");
+            //Console.Write("You entered: ");
+            
+            //Console.WriteLine(x);
+            //Console.WriteLine(" its a magic ");
+
+            double y = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(y);
         }
     }
 }

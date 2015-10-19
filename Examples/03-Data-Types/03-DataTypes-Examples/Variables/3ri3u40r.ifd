@@ -27,18 +27,10 @@ namespace Variables
             Console.WriteLine(testInt);
 
             //ТИП   Име                 стойност
-            double floatingPointNumber = 4;
-            Console.WriteLine(floatingPointNumber);
+            double floatingPointNumber = 4.5;
 
-            float floatingPoint = 5.6f;
 
-            decimal decimalValue = 6.8m;
 
-            bool isTrue = false;
-            Console.WriteLine(isTrue);
-
-            char oneSymbol = 'g';
-            Console.WriteLine(oneSymbol);
         }
     }
 }

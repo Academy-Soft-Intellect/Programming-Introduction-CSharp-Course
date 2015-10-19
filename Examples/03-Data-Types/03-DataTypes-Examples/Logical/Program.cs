@@ -10,9 +10,12 @@ namespace Logical
     {
         static void Main(string[] args)
         {
-            bool a = true; 
-            bool b = false;
-            Console.WriteLine(a || b);
+            int x = 5;
+            int y = 6;
+
+            bool a = x > y;
+            bool b = true;
+            Console.WriteLine(!b);
         }
     }
 }

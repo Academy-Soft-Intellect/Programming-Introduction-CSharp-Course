@@ -11,9 +11,11 @@ namespace WorkingWithStrings
         static void Main(string[] args)
         {
 
-            string b = "Lazar Sestrimski";
-            string result = "Hello " + b + "!";
-            Console.WriteLine(result); 
+            string name = "Ivaylo Babalev";
+            string result = "Hello " + name + "!";
+            Console.WriteLine(result);
+
+            Console.WriteLine(result[1]);
         }
     }
 }

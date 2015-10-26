@@ -10,13 +10,13 @@ namespace ForLoop
     {
         private static void Main(string[] args)
         {
-            for (int number = 0; number < 5; number++)
-            {
-                Console.WriteLine(number + " ");
-            }
-            Console.WriteLine();
+            //for (int number = 0; number < 5; number++)
+            //{
+            //    Console.Write(number + " ");
+            //}
+            //Console.WriteLine();
 
-            int n = 6;
+            int n = 20;
 
             long factorial = 1;
 

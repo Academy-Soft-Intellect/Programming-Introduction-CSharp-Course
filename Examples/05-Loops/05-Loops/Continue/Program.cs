@@ -12,14 +12,15 @@ namespace Continue
         {
             for (int i = 0; i <= 15; i++)
             {
-
                 if (i % 2 == 0)
                 {
                     continue;
                 }
 
-                Console.Write("Odd digit: {0}", i);
+                Console.Write("Odd number: {0}", i);
                 Console.WriteLine();
+
+                
             }
         }
     }

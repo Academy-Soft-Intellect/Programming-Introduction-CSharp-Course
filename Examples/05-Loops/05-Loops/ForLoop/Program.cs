@@ -10,22 +10,22 @@ namespace ForLoop
     {
         private static void Main(string[] args)
         {
-            //for (int number = 0; number < 5; number++)
-            //{
-            //    Console.Write(number + " ");
-            //}
-            //Console.WriteLine();
-
-            int n = 20;
-
-            long factorial = 1;
-
-            for (int i = 1; i <= n; i++)
+            for (int number = 0; number < 5; number++)
             {
-                factorial *= i;
+                Console.Write(number + " ");
             }
+            Console.WriteLine();
 
-            Console.WriteLine("{0}! = {1}", n, factorial);
+            //int n = 20;
+
+            //long factorial = 1;
+
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    factorial *= i;
+            //}
+
+            //Console.WriteLine("{0}! = {1}", n, factorial);
         }
     }
 }

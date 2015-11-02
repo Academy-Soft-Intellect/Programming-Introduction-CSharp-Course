@@ -27,7 +27,6 @@ namespace Task04
                     isSymetric = false;
                     break;
                 }
-                
             }
             Console.WriteLine("The array is symetric: " + isSymetric);
         }

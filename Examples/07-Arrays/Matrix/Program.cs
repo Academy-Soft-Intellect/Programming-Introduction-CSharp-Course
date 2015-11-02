@@ -22,7 +22,6 @@ namespace Matrix
             //    Console.WriteLine(item);
             //}
 
-
             //Console.WriteLine(matrix[2, 1]);
             //matrix[2, 1] = 12;
             //Console.WriteLine(matrix[2, 1]);
@@ -33,7 +32,7 @@ namespace Matrix
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    Console.Write("{0}\t", matrix[i, j]);
+                    matrix[i, j] = int.Parse(Console.ReadLine());
                 }
                 Console.WriteLine();
             }

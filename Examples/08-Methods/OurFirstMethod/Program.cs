@@ -18,19 +18,29 @@ namespace OurFirstMethod
             //Console.WriteLine("Waiting");
             //Console.WriteLine("..........");
 
-
             //string b = "Your name";
             //PrintMyName(b);
 
-            int a = 5;
-            int b = 6;
-            CalculateSum(a, b);
-            Console.WriteLine("....................");
-            Console.WriteLine(a);
 
-            int x = 8;
-            int y = 12;
-            CalculateSum(a, b, x, y);
+            //int a = 5;
+            //int b = 6;
+            //CalculateSum(a, b);
+            //Console.WriteLine("....................");
+            //Console.WriteLine(a);
+
+            //int x = 8;
+            //int y = 12;
+            //CalculateSum(a, b, x, y);
+
+            int number = 5;
+            ChangeNumber(number);
+            Console.WriteLine(number);
+        }
+
+        private static void ChangeNumber(int numberToChange)
+        {
+            numberToChange++;
+            Console.WriteLine(numberToChange);
         }
 
         private static void CalculateSum(int firstNumber, int secondNumber)

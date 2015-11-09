@@ -13,16 +13,18 @@ namespace MethodWithParam
             int a = 15;
             int b = 10;
 
-            int c = Sum(a, b, 5);
+            int c = Sum(a, b);
 
             Console.WriteLine(c);
+
+            Console.WriteLine(Sum(a, b));
         }
 
-        private static int Sum(int firstNumber, int secondNumber, int thirdNumber)
+        private static int Sum(int firstNumber, int secondNumber)
         {
-            int result = firstNumber + secondNumber + thirdNumber;
-            return result;
+            int result = firstNumber - secondNumber;
 
+            return result;
         }
     }
 }

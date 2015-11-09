@@ -12,6 +12,7 @@ namespace GlobalParameter
 
         static void Main(string[] args)
         {
+
             IncrementCounter();
             IncrementCounter();
             IncrementCounter();

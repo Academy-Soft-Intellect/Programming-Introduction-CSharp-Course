@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnValue", "ReturnValue\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableScope", "VariableScope\VariableScope.csproj", "{F5F164A1-8583-4B77-A02F-3EF852A31842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodWithoutParam", "MethodWithoutParam\MethodWithoutParam.csproj", "{62E3B2B3-2ABA-40DE-9FAD-D67A3F62A0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsDemo", "MethodsDemo\MethodsDemo.csproj", "{BD7DE7BC-F161-4CD5-8911-21E2EBDAAD10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{F5F164A1-8583-4B77-A02F-3EF852A31842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5F164A1-8583-4B77-A02F-3EF852A31842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5F164A1-8583-4B77-A02F-3EF852A31842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E3B2B3-2ABA-40DE-9FAD-D67A3F62A0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E3B2B3-2ABA-40DE-9FAD-D67A3F62A0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E3B2B3-2ABA-40DE-9FAD-D67A3F62A0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E3B2B3-2ABA-40DE-9FAD-D67A3F62A0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7DE7BC-F161-4CD5-8911-21E2EBDAAD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7DE7BC-F161-4CD5-8911-21E2EBDAAD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7DE7BC-F161-4CD5-8911-21E2EBDAAD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7DE7BC-F161-4CD5-8911-21E2EBDAAD10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

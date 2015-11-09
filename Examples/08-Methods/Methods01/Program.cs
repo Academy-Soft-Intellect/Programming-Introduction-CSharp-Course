@@ -10,6 +10,7 @@ namespace Methods01
     {
         static void Main(string[] args)
         {
+            //IMPORTANT!!!!!!
             int[] arr = new int[10];
             for (int i = 0; i < arr.Length; i++)
             {
@@ -24,6 +25,7 @@ namespace Methods01
 
         private static void PrintStringReverse(string text)
         {
+            //IMPORTANT!!!!!!
             for (int i = text.Length - 1; i > -1; i--)
             {
                 Console.Write(text[i]);
@@ -33,10 +35,18 @@ namespace Methods01
 
         private static void PrintArrayReverse(int[] arr)
         {
+            //IMPORTANT!!!!!!
             for (int i = arr.Length - 1; i > -1; i--)
             {
                 Console.WriteLine(arr[i]);
             }
+
+            //IMPORTANT!!!!!!
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+
         }
 
 

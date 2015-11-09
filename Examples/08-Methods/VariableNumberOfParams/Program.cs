@@ -11,14 +11,13 @@ namespace VariableNumberOfParams
         static void Main(string[] args)
         {
             int count = 0;
-            Console.WriteLine("Call method with 2 params");
+            Console.WriteLine("Call method with 3 params");
             PrintNames(count, "a", "B");
 
-            Console.WriteLine("Call method with 3 params");
+            Console.WriteLine("Call method with 4 params");
             PrintNames(count, "c", "d", "e");
 
-
-            Console.WriteLine("Call method with 4 params");
+            Console.WriteLine("Call method with 8 params");
             PrintNames(count, "f", "g", "h", "i", "dss", "mm", "nn");
         }
 

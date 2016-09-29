@@ -10,7 +10,7 @@ namespace ArithmeticalOperations
     {
         static void Main(string[] args)
         {
-            Console.Write("Please enter a new number: ");
+            //Console.Write("Please enter a new number: ");
             //string str = Console.ReadLine();
 
             //int x = int.Parse(str);
@@ -32,6 +32,11 @@ namespace ArithmeticalOperations
             //Console.WriteLine(y-z);
 
             //Console.WriteLine(x*y);
+
+            //double a = 5;
+            //double b = 6;
+            //double result = a * b;
+            //Console.WriteLine(result);
 
             int a = 5;
             Console.WriteLine(a);

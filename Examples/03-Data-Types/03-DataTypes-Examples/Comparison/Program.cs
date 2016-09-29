@@ -10,16 +10,15 @@ namespace Comparison
     {
         static void Main(string[] args)
         {
-            int x = 6;
-            int z = 3;
+            //int x = 6;
+            //int z = 3;
 
-
-            Console.WriteLine(x > z);
+            //Console.WriteLine(x != z);
 
             string a = "hello";
             string b = "Hello";
 
-            Console.WriteLine(a==b);
+            Console.WriteLine(a == b);
         }
     }
 }

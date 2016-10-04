@@ -28,7 +28,6 @@ namespace Logical
             Console.WriteLine(x ^ y); // true
             Console.WriteLine(!x); //false
             Console.WriteLine(!y); //true
-
         }
     }
 }

@@ -8,7 +8,7 @@ namespace SwitchConstruction
 {
     class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Console.WriteLine("Enter day of the week: ");
             //int day = int.Parse(Console.ReadLine());

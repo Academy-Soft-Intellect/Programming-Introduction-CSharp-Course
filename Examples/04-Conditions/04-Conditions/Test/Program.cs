@@ -14,7 +14,7 @@ namespace Test
             string myString = Console.ReadLine();
             bool isTrue = myString == "Hello";
 
-            Console.WriteLine(myString=="Hello");
+            Console.WriteLine(myString == "Hello");
 
             Console.WriteLine(myString[2]);
         }

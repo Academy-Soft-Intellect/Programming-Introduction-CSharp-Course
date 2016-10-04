@@ -12,12 +12,13 @@ namespace IfConstruction
         {
             Console.WriteLine("Please enter an integer:");
             int numInt = int.Parse(Console.ReadLine());
+
             if (numInt == 100)
             {
                 Console.WriteLine("The number is 100");
             }
 
-            Console.WriteLine("Prodyljavame napred");
+            Console.ReadKey();
         }
     }
 }

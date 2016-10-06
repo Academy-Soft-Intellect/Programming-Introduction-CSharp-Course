@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,12 +15,10 @@ namespace WhileLoop
 
             while (counter <= 20)
             {
-                if (counter % 2 != 0)
-                {
-                    Console.WriteLine(counter);
-                }
+                Console.WriteLine(counter);
                 counter++;
             }
+
             Console.WriteLine("Loop ended!");
         }
     }

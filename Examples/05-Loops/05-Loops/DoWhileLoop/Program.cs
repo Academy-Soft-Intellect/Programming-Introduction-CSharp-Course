@@ -14,9 +14,10 @@ namespace DoWhileLoop
 
             do
             {
-                Console.WriteLine("Value of the counter: " + counter);
                 counter--;
+                Console.WriteLine("Value of the counter: " + counter);
             } while (counter > 0);
+
             Console.WriteLine("Loop ended");
         }
     }

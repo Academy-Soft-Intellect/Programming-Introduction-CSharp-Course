@@ -16,7 +16,8 @@ namespace Continue
                 {
                     continue;
                 }
-                Console.WriteLine(i);
+
+                Console.WriteLine(i*2);
             }
 
             //for (int i = 1; i < 101; i++)

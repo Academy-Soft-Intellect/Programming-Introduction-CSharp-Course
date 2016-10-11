@@ -14,6 +14,10 @@ namespace ForEach
 
             foreach (var item in stringArray)
             {
+                if (item == stringArray.ElementAt(2))
+                {
+                    break;
+                }
                 Console.WriteLine(item);
             }
         }

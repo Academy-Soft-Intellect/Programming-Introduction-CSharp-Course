@@ -10,59 +10,66 @@ namespace Matrix
     {
         static void Main(string[] args)
         {
-            //    int[,] matrix = new int[,]
+            //int[,] matrix = new int[,]
+            //{
+            //    {15, 1, 14},
+            //    {55, 11, 523},
+            //    {554, 131, 23}
+            //};
+
+            //Console.WriteLine(matrix.GetLength(0));
+            //Console.WriteLine(matrix.GetLength(1));
+            //Console.WriteLine(matrix.Length);
+
+            //for (int i = 0; i < matrix.GetLength(0); i++)
+            //{
+            //    for (int k = 0; k < matrix.GetLength(1); k++)
             //    {
-            //        {15, 1, 14},
-            //        {55, 11, 523},
-            //        {554, 131, 23},
-            //        {15, 161, 3},
-            //        {445, 3, 8}
-            //    };
-
-            //    Console.WriteLine(matrix.Length);
-
-            //    int counter = 1;
-            //    foreach (var item in matrix)
-            //    {
-
-            //        Console.Write(item + "\t");
-            //        if (counter == matrix.GetLength(1))
-            //        {
-            //            Console.WriteLine();
-            //            counter = 0;
-            //        }
-            //        counter++;
+            //        string a = string.Format("{0} \t", matrix[i, k]);
+            //        Console.Write(a);
             //    }
+            //    Console.WriteLine();
+            //    Console.WriteLine();
+            //}
 
             Console.WriteLine("Enter number of rows:");
             int rows = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter number of cols:");
             int cols = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter number of matrixes:");
+            int matrices = int.Parse(Console.ReadLine());
 
+            int[,] matrix2 = new int[rows, cols];
 
-            string[,] matrix2 = new string[rows, cols];
-            
-
-            for (int i = 0; i < matrix2.GetLength(0); i++)
+            Random rand = new Random();
+            for (int m = 0; m < matrices; m++)
             {
-                for (int j = 0; j < matrix2.GetLength(1); j++)
-                {
-                    //Console.WriteLine("Enter element for {0}:{1}", i, j);
-                    string a = string.Format("Enter element for {0}:{1}", i, j);
-                    Console.WriteLine(a);
-                    matrix2[i, j] = Console.ReadLine();
-                }
-            }
-
-
-            for (int i = 0; i < matrix2.GetLength(0); i++)
-            {
-                for (int j = 0; j < matrix2.GetLength(1); j++)
-                {
-                    Console.Write("|" + matrix2[i, j] + "|" + "\t");
-                }
                 Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                for (int i = 0; i < matrix2.GetLength(0); i++)
+                {
+                    for (int j = 0; j < matrix2.GetLength(1); j++)
+                    {
+                        //Console.WriteLine("Enter element for {0}:{1}", i, j);
+                        string a = string.Format("Enter element for {0}:{1}", i, j);
+                        //Console.WriteLine(a);
+                        matrix2[i, j] = rand.Next(0, 101);
+                    }
+                }
+
+
+                for (int i = 0; i < matrix2.GetLength(0); i++)
+                {
+                    for (int j = 0; j < matrix2.GetLength(1); j++)
+                    {
+                        Console.Write("|" + matrix2[i, j] + "|" + "\t");
+                    }
+                    Console.WriteLine();
+                }
             }
+
 
             //for (int a = 0; a < 3; a++)
             //{
